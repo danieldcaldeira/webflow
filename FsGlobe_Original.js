@@ -52,7 +52,7 @@ function FsGlobe() {
   let renderRequested = false;
   let animationFrame;
 
-  const team = fetchDataFromCollection("[fs-3dglobe-element='list'] .w-dyn-item");
+  const team = fetchDataFromCollection("[fs-3dglobe-element='list'] .s-item");
 
   const loader = new THREE.TextureLoader();
   const texture = loader.load(defaultValue.url, render);
